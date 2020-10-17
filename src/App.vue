@@ -57,7 +57,7 @@ export default {
         this.loading = false;
         //console.log(response);
         this.products = response.data;
-        //this.createWijmoTable();
+        this.createWijmoTable();
       });
     },
     createWijmoTable() {
